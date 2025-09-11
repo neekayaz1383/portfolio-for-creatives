@@ -104,7 +104,6 @@
   /* Typography */
   --font-family-body: "DM Sans", sans-serif;
   --font-family-heading: "Rethink Sans", sans-serif;
-  --font-weight: 600;
   --font-family-project-title: "Rethink Sans", sans-serif;
   /* Core Colours */
   --color-text-primary: #222;
@@ -396,6 +395,7 @@ svg {
 h1 {
   font-size: 2.2rem;
   font-family: var(--font-family-heading);
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem;
   color: var(--h1-color);
@@ -404,6 +404,7 @@ h1 {
 h2 {
   font-size: 2rem;
   font-family: var(--font-family-heading);
+  font-weight: 600;
   line-height: 1.2;
   margin-bottom: 1rem;
   color: var(--h2-color);
