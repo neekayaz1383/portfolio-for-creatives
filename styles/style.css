@@ -104,6 +104,7 @@
   /* Typography */
   --font-family-body: "DM Sans", sans-serif;
   --font-family-heading: "Rethink Sans", sans-serif;
+  --font-weight: 600;
   --font-family-project-title: "Rethink Sans", sans-serif;
   /* Core Colours */
   --color-text-primary: #222;
