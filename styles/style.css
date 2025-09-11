@@ -102,9 +102,9 @@
 
 :root {
   /* Typography */
-  --font-family-body: "Inter", sans-serif;
-  --font-family-heading: "Eczar", serif;
-  --font-family-project-title: "Eczar", serif;
+  --font-family-body: "DM Sans", sans-serif;
+  --font-family-heading: "Rethink Sans", sans-serif;
+  --font-family-project-title: "Rethink Sans", sans-serif;
   /* Core Colours */
   --color-text-primary: #222;
   --color-text-secondary: #333;
