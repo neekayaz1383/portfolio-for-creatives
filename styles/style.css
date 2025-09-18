@@ -103,36 +103,36 @@
   --font-family-heading: "Rethink Sans", sans-serif;
   --font-family-project-title: "Rethink Sans", sans-serif;
   /* Core Colours */
-  --color-text-primary: #222;
-  --color-text-secondary: #333;
-  --color-accent-primary: #5200ff;
-  --color-accent-secondary: #ff057c;
-  --color-overlay-primary: #5200ff;
-  --color-highlight: lemonchiffon;
-  --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
+  --color-text-primary: #0F0C24;
+  --color-text-secondary: #2B2551;
+  --color-accent-primary: #6F7ACF;
+  --color-accent-secondary: #F29EBC;
+  --color-overlay-primary: #2b2551;
+  --color-highlight: #F29EBC;
+  --color-fallback: #FFD2E2; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
-  --color-bg: #fdfdfd;
-  --color-bg-about: #f5f5f5;
-  --color-bg-footer: #f5f5f5;
-  --color-bg-holding-page: rgba(82, 0, 255, 0.6);
+  --color-bg: #EFE6DF;
+  --color-bg-about: #EFE6DF;
+  --color-bg-footer: #C7B4A5;
+  --color-bg-holding-page: #2B2551;
   /* Headings */
-  --h1-color: #5200ff;
-  --h2-color: #5200ff;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
+  --h1-color: #0F0C24;
+  --h2-color: #6F7ACF;
+  --h3-color: #2B2551;
+  --h4-color: #F29EBC;
+  --h5-color: #2B2551;
+  --h6-color: #2B2551;
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
-  --color-text-project-category: #ffffff;
-  --color-text-project-description: #222;
-  --color-text-project-sidebar: #222;
-  --color-text-project-title: #5200ff;
+  --color-text-project-category: #F29EBC;
+  --color-text-project-description: #2B2551;
+  --color-text-project-sidebar: #6F7ACF;
+  --color-text-project-title: #0F0C24;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
-  --color-link: #5200ff;
-  --color-link-hover: #111;
-  --color-link-visited: #5200ff;
+  --color-link: #6F7ACF;
+  --color-link-hover: #F29EBC;
+  --color-link-visited: #C7B4A5;
   /* Navigation */
   --color-nav-link: #5200ff;
   --color-nav-link-hover: #321575;
