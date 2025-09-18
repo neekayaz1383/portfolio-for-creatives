@@ -113,7 +113,7 @@
   /* Backgrounds */
   --color-bg: #EFE6DF;
   --color-bg-about: #EFE6DF;
-  --color-bg-footer: #C7B4A5;
+  --color-bg-footer: #EFE6DF;
   --color-bg-holding-page: #2B2551;
   /* Headings */
   --h1-color: #0F0C24;
@@ -134,10 +134,10 @@
   --color-link-hover: #F29EBC;
   --color-link-visited: #C7B4A5;
   /* Navigation */
-  --color-nav-link: #5200ff;
-  --color-nav-link-hover: #321575;
-  --color-nav-arrow: #5200ff;
-  --color-nav-arrow-hover: #000;
+  --color-nav-link: #6F7ACF;
+  --color-nav-link-hover: #F29EBC;
+  --color-nav-arrow: #6F7ACF;
+  --color-nav-arrow-hover: #F29EBC;
   --color-nav-arrow-stroke: #5200ff;
   --color-nav-arrow-stroke-hover: #000;
   /* Components */
