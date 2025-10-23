@@ -115,9 +115,9 @@
   /* Headings */
   --h1-color: #0F0C24;
   --h2-color: #2B2551;
-  --h3-color: #6F7ACF;
-  --h4-color: #F29EBC;
-  --h5-color: #2B2551;
+  --h3-color: #2B2551;
+  --h4-color: #6F7ACF;
+  --h5-color: #F29EBC;
   --h6-color: #2B2551;
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
@@ -129,7 +129,7 @@
   /* Link States */
   --color-link: #6F7ACF;
   --color-link-hover: #F29EBC;
-  --color-link-visited: #C7B4A5;
+  --color-link-visited: #F29EBC;
   /* Navigation */
   --color-nav-link: #6F7ACF;
   --color-nav-link-hover: #F29EBC;
@@ -405,7 +405,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.325rem;
+  font-size: 1.75rem;
   margin-bottom: 1rem;
   line-height: 1.2;
   color: var(--h3-color);
