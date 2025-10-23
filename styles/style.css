@@ -32,8 +32,8 @@
 /* TODO: Replace these Google Fonts with the ones you want to use on your site. */
 /* Remember, the more fonts you load, the longer it can take for your page to load. */
 
-/* Fraunces Font (for headers or special text) */
-@import url('ttps://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+/* Rethink Sans Font (for headers or special text) */
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 /* DM Sans Font (clean and modern for body text) */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
@@ -60,9 +60,6 @@
 
 /* File for animation effects that make elements blink */
 @import url("make-something-blink.css");
-
-/* File for adding a smooth animated gradient background */
-@import url("animated-gradient.css");
 
 /* File for adding a glitch animation to your 404 error page */
 @import url("error.css");
@@ -100,8 +97,8 @@
 :root {
   /* Typography */
   --font-family-body: "DM Sans", sans-serif;
-  --font-family-heading: "Fraunces", serif;
-  --font-family-project-title: "Fraunces", serif;
+  --font-family-heading: "Rethink Sans", sans-serif;
+  --font-family-project-title: "Rethink Sans", sans-serif;
   /* Core Colours */
   --color-text-primary: #0F0C24;
   --color-text-secondary: #2B2551;
@@ -644,7 +641,7 @@ a.nav-link-primary:hover {
 }
 
 .nav-branding-logo {
-  width: 3rem;
+  width: 5rem;
   /* TODO: Adjust the width of the logo on mobile devices here */
 }
 
