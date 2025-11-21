@@ -140,7 +140,6 @@
   /* Components */
   --color-bg-full-width: #f5f5f5;
   --color-bg-project-description: #f5f5f5;
-  --color-bg-sidebar-project: orangered;
   --color-bg-sidebar-work: lemonchiffon;
   --color-gradient-hero: linear-gradient(90deg, #ff00ff, #00ffff);
   --color-gradient-project-details: linear-gradient(-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
@@ -560,7 +559,7 @@ a:active {
 
 a.nav-link-primary {
   color: var(--color-nav-link);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 a.nav-link-primary:hover {
   color: var(--color-nav-link-hover);
@@ -625,6 +624,30 @@ a.nav-link-primary:hover {
   min-height: 6rem; /* Space reserved for logo + nav */
 }
 
+
+.work-page {background-image: url(../assets/branding-images/background.jpg);
+
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: top;
+}
+
+.background-hero{
+  inset:0;
+  z-index: -1;
+  overflow: hidden;
+  position:absolute;
+}
+
+.background-hero img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
 .nav-branding {
   display: flex;
   flex-direction: row;
@@ -655,8 +678,7 @@ a.nav-link-primary:hover {
   align-items: center;
   justify-content: center;
   padding: var(--padding-small);
-  text-align: left; /* Keeps text centered */
-  border: 2px solid black;
+  text-align: center; /* Keeps text centered */
 }
 
 .hero-icon {
@@ -1330,15 +1352,15 @@ to keep your styles reusable and consistent.
   }
 
   .hero {
-    min-height: 100vh;
+    min-height: 85vh;
   }
 
   .hero-headline-wrapper {
-    padding-top: var(--padding-jumbo);
-    padding-bottom: var(--padding-jumbo);
-    padding-left: var(--padding-ultra);
-    padding-right: var(--padding-ultra);
-    width: 70%;
+    padding-top: var(--padding-medium);
+    padding-bottom: var(--padding-medium);
+    padding-left: var(--padding-medium);
+    padding-right: var(--padding-medium);
+    width: 100%;
   }
   .error-headline-wrapper {
     padding-top: var(--padding-small);
